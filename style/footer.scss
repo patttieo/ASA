@@ -1,0 +1,15 @@
+.footer-wrapper {
+	text-align:center;
+  padding:2rem;
+  .footer-links {
+    padding:3rem 0;
+    li {
+      list-style: none;
+      margin:0 2rem;
+      display: inline-block;
+      a {
+        color:#000;
+      }
+    }
+  }
+}

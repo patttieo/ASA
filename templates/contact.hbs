@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{> partials/head }}
+</head>
+
+<body class="body-class">
+
+  <nav class="mobile-nav-wrapper hidden-md hidden-lg">
+    <div class="mobile-menu">
+     <ul>
+       <li><a href="">Menu</a></li>
+       <li><a href="">Menu</a></li>
+       <li><a href="">Menu</a></li>
+       <li><a href="">Menu</a></li>
+       <li><a href="">Menu</a></li>
+     </ul>
+    </div>
+  </nav>
+  <div class="main-container">
+    <div class="menu-trigger hidden-md hidden-lg">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- start if header -->
+    {{> partials/header }}
+    <!-- end of header -->
+
+    {{> partials/contact }}
+
+    <!-- start of footer -->
+    {{> partials/footer }}
+    <!-- end of foot -->   
+    {{> partials/scripts }}
+  </div>
+
+
+</body>
+</html>

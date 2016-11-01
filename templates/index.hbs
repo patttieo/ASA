@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{> partials/head }}
+</head>
+
+<body>
+
+  <nav class="mobile-nav-wrapper hidden-md hidden-lg">
+    <div class="mobile-menu">
+     <ul>
+       <li><a href="">Home</a></li>
+       <li><a href="">Birthday Parties</a></li>
+       <li><a href="">Inline Hockey</a></li>
+      <li><a href="">Camps</a></li>
+       <li><a href="">Derby</a></li>
+       <li><a href="">About Us</a></li>
+       <li><a href="/contact.html">Contact Us</a></li>
+     </ul>
+     <div class="m-social-links">
+       <ul>
+          <li><a href="/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+          <li><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+       </ul>
+     </div>
+    </div>
+  </nav>
+  <div class="main-container">
+    <div class="menu-trigger hidden-md hidden-lg">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- start if header -->
+    {{> partials/header }}
+    <!-- end of header -->
+
+    {{> partials/home }}
+
+    <!-- start of footer -->
+    {{> partials/footer }}
+    <!-- end of foot -->   
+    {{> partials/scripts }}
+  </div>
+
+
+</body>
+</html>
